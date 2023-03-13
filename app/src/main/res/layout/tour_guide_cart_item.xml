@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tourTitle"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:text="Tour"
+            android:textAlignment="center"
+            android:textColor="@color/lightBlue"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/touristName"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:text="Tourist"
+            android:textColor="@color/lightBlue"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/appointmentDate"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:text="Time"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/appointmentInfo"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Details"
+            android:textColor="@color/lightBlue"
+            android:textSize="@dimen/_7sdp" />
+        <TextView
+            android:id="@+id/appointmentStauts"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cart_border"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cart_border"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="@dimen/_80sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cart_border"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Details"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_7sdp" />
+
+            <ImageButton
+                android:id="@+id/approveCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/white"
+
+                android:minWidth="@dimen/_50sdp"
+                android:minHeight="@dimen/_30sdp"
+                app:srcCompat="@drawable/ic_check_approve" />
+
+            <ImageButton
+                android:id="@+id/rejectCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/white"
+
+                android:minWidth="@dimen/_50sdp"
+                android:minHeight="@dimen/_30sdp"
+                app:srcCompat="@drawable/ic_check_reject" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

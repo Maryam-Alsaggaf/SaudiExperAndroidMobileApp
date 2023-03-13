@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509710302834",
+    "firebase_url": "https://saudiexpertproject-default-rtdb.firebaseio.com",
+    "project_id": "saudiexpertproject",
+    "storage_bucket": "saudiexpertproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509710302834:android:2c2abf24f5b035ad558ceb",
+        "android_client_info": {
+          "package_name": "com.example.saudiexpertsecondversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509710302834-m7u8sfn7149i0en5hm2tu67bj1533hos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkGBO2-pYvIS9D5pLsWbwtWpt4mwroOaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509710302834-m7u8sfn7149i0en5hm2tu67bj1533hos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

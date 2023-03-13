@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tourist.t_cart_fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/left_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right_clear_image"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:text="Tourist Cart"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:text=" Items in your cart :"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" * Note"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text=" * The payment will be cash at the end of the tour\n * if the tour status has been approved the tour guide will contact you through email and phone"
+                android:textSize="@dimen/_10sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/cart_border"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tourTitle"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/cart_border"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="@dimen/_4sdp"
+                    android:text="Tour"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_7sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tourGuideName"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/cart_border"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="@dimen/_4sdp"
+                    android:text="Tour Guide"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_7sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/appointmentDate"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/cart_border"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="@dimen/_4sdp"
+                    android:text="Date"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_7sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/appointmentInfo"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/cart_border"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Appointment Info"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_6sdp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/Status"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/cart_border"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_7sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/cart_border"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="@dimen/_4sdp"
+                    android:text="Click to cancel"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_8sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clipToPadding="false">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/tour_recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/tourist_cart_item" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+</layout>

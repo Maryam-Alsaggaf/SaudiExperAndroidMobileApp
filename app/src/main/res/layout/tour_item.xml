@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_85sdp"
+        
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/signup_input"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_68sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            app:srcCompat="@drawable/lap"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium"
+            android:layout_margin="10dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/tour_item_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tour_item_title"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="4dp"
+                    android:text="Historical City Tour"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.071"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tourDescription"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat varius laoreet. Nunc sed velit non eros feugiat vulputate. Sed ullamcorper mattis augue ut malesuada. Nulla neque orci, tempus nec arcu quis, lobortis cursus metus. Ut vitae leo at ipsum posuere faucibus. Morbi mattis libero iaculis nibh tincidunt vestibulum. Praesent eu neque nibh. Cras in nunc eleifend, finibus est sed, sodales nunc. Praesent iaculis placerat turpis a laoreet. Lorem ipsum dolor sit amet,"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.187"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tour_item_title" />
+
+                <TextView
+                    android:id="@+id/tourCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="16dp"
+                    android:text="City:Riyadh"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.04"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tourDescription" />
+
+                <TextView
+                    android:id="@+id/tourDetailsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+                    android:text="Show more"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.949"
+                    app:layout_constraintStart_toEndOf="@+id/tourCity"
+                    app:layout_constraintTop_toBottomOf="@+id/tourDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

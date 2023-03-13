@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/approved_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cart_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/check_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_down_circle_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_outline_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_check_approve.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_check_reject.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/search_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/signup_input.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_appointment_details.xml" value="0.31840194460396887" />
+        <entry key="app/src/main/res/layout/activity_g_home.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_g_show_tour_details.xml" value="0.2089489235964542" />
+        <entry key="app/src/main/res/layout/activity_gshow_tour_details.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_main_registertion.xml" value="0.20334320068359374" />
+        <entry key="app/src/main/res/layout/activity_selected_tour_info.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_t_edit_profile.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_t_home.xml" value="0.196746826171875" />
+        <entry key="app/src/main/res/layout/activity_t_login.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_t_make_appointment.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_t_show_tour_details.xml" value="0.26490936279296873" />
+        <entry key="app/src/main/res/layout/activity_t_show_tour_guide_info.xml" value="0.2563990194606903" />
+        <entry key="app/src/main/res/layout/activity_t_sign_up.xml" value="0.23192749023437498" />
+        <entry key="app/src/main/res/layout/activity_t_signup_page.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_tedit_profile.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_tg_add_tour.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_tg_edit_profile.xml" value="0.18575286865234375" />
+        <entry key="app/src/main/res/layout/activity_tg_home.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_tg_home2.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/activity_tg_login.xml" value="0.20993957519531248" />
+        <entry key="app/src/main/res/layout/activity_tg_login2.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/activity_tg_show_tour_deatils.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tg_show_tourist_cart_info.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_tg_sign_up.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_tg_update_tour.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_thome.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/activity_thome_page.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/activity_tlogin.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/activity_tmake_appointment.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/alert_dailog.xml" value="0.27540283203125004" />
+        <entry key="app/src/main/res/layout/approve_reject_window.xml" value="0.22341714690209663" />
+        <entry key="app/src/main/res/layout/fragment_g_cart.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_g_home.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_g_profile.xml" value="0.2665986888375024" />
+        <entry key="app/src/main/res/layout/fragment_t_cart_fragment.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_t_fragemnt_home.xml" value="0.20582681487084659" />
+        <entry key="app/src/main/res/layout/fragment_t_profile.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/fragment_tg_cart.xml" value="0.19894561767578128" />
+        <entry key="app/src/main/res/layout/fragment_tg_fragament_profile.xml" value="0.24072265625000006" />
+        <entry key="app/src/main/res/layout/fragment_tg_fragemnt_home.xml" value="0.2011444091796875" />
+        <entry key="app/src/main/res/layout/geust_pop_window.xml" value="0.2116289012398461" />
+        <entry key="app/src/main/res/layout/logout_window.xml" value="0.21876141092051626" />
+        <entry key="app/src/main/res/layout/search_pop_window.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/tour_guide_cart_item.xml" value="0.2629953939724091" />
+        <entry key="app/src/main/res/layout/tour_item.xml" value="0.19923044035912782" />
+        <entry key="app/src/main/res/layout/tourist_cart_item.xml" value="0.18603769133569031" />
+        <entry key="app/src/main/res/layout/type_user_dialog.xml" value="0.25831298828125" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.19837537409149208" />
+        <entry key="app/src/main/res/menu/fragments_menu.xml" value="0.19923044035912782" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

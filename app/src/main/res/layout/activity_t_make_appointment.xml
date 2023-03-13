@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tourist.T_MakeAppointment">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_icon" />
+
+    <ImageView
+        android:id="@+id/right_image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/right_image" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Add Tour"
+        android:textSize="@dimen/_19sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/secondTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:text="Book this Tour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_26sdp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/hoursLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:orientation="horizontal"
+            app:boxStrokeWidth="0dp"
+            app:startIconDrawable="@drawable/ic_baseline_hourglass_top_24">
+
+            <AutoCompleteTextView
+                android:id="@+id/filled_exposed_dropdown_hours"
+                android:layout_width="@dimen/_230sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signup_input"
+                android:hint="How many hours ?"
+                android:inputType="none"
+                app:boxStrokeWidth="0dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/timeLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_19sdp"
+            android:orientation="horizontal"
+            app:boxStrokeWidth="0dp"
+            app:startIconDrawable="@drawable/ic_baseline_access_time_24">
+
+            <AutoCompleteTextView
+                android:id="@+id/filled_exposed_dropdown_start_time"
+                android:layout_width="@dimen/_230sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/signup_input"
+                android:hint="Time the tour start ?"
+                android:inputType="none"
+                app:boxStrokeWidth="0dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+
+            android:layout_width="@dimen/_227sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_19sdp"
+            android:background="@drawable/signup_input"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/datelayout"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                app:startIconDrawable="@drawable/ic_baseline_update_24"
+                app:boxStrokeWidth="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tourDate"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/signup_input"
+                    android:ems="10"
+                    android:hint="Select tour date "
+                    android:inputType="date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:layout_editor_absoluteY="111dp" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/dialogDateButton"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="@dimen/_42sdp"
+                android:background="@drawable/signup_input"
+                android:contentDescription="calender"
+                android:src="@drawable/calender_icon" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_227sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_19sdp"
+            android:background="@drawable/signup_input"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/locationlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                app:boxStrokeWidth="0dp"
+                app:startIconDrawable="@drawable/ic_baseline_my_location_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/meetingPoint"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/signup_input"
+                    android:ems="10"
+                    android:textSize="@dimen/_10sdp"
+                    android:hint="Select meeting point "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:layout_editor_absoluteY="111dp" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/meetingPointButton"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="@dimen/_42sdp"
+                android:background="@drawable/signup_input"
+                android:contentDescription="calender"
+                android:src="@drawable/ic_baseline_add_location_24" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bookAppointment"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="@dimen/_19sdp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:background="@color/green"
+            android:text="Book Now"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="@color/green"
+            app:cornerRadius="@dimen/_20sdp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
